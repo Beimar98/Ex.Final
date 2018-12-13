@@ -2,7 +2,7 @@
 #include <fstream>
 using namespace std;
 
-int binarySearch3(long long int arr[], int l, int r, int x)
+int binarySearch(long long int arr[], int l, int r, int x)
 {
    int mid = l + (r - l)/2;
    if (r >= l)
@@ -30,7 +30,7 @@ int binarySearch3(long long int arr[], int l, int r, int x)
    return mid;
 }
 
-int mainddd()
+int main()
 {
     long long int n,ci,q;
     int indice,x;
